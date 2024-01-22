@@ -1,0 +1,9 @@
+@use "../util/" as *;
+
+.toggle{
+    &__toggle{
+        width: rem(20);
+        height: rem(20);
+        background-color: var(--toggle);
+    }
+}
