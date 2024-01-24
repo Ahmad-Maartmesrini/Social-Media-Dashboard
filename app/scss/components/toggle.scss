@@ -1,16 +1,36 @@
 @use "../util/" as *;
 
-.toggle{
-    border: none;
-    &__wrapper{
+.toggle {
+  display: grid;
+  border: none;
+  &__wrapper {
+    height: rem(24);
+  }
+  input[type="radio"] {
+    opacity: 0;
+  }
+  label {
+    font-size: rem(14);
+    font-weight: 700;
+    color: var(--toggle);
 
+    &[for='dark'] {
+      line-height: rem(24);
+      margin-right: rem(13);
     }
-    input[type="radio"] {
-
-    }
-    &__button{
-        width: rem(16);
-        height: rem(16);
-        background-color: var(--toggle);
-    }
+  }
+  &__background {
+    display: block;
+    height: 100%;
+    border-radius: rem(12);
+    background: linear-gradient(
+      225deg,
+      var(--toggle-bg-end) 0% var(--toggle-bg-start) 98.02%
+    );
+  }
+  &__button {
+    width: rem(18);
+    height: rem(18);
+    background-color: var(--dark-bg);
+  }
 }
