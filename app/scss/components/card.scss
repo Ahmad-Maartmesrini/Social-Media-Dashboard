@@ -1,4 +1,4 @@
-@use '../util' as *;
+@use "../util" as *;
 
 .cards {
   display: grid;
@@ -41,22 +41,20 @@
     padding-top: rem(30);
 
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       display: block;
       left: 0;
       top: 0;
       width: 100%;
       height: rem(5);
-      // background: linear-gradient(
-      //   225deg,
-      //   var(--instagram-end),
-      //   var(--instagram-middle) 50.91%,
-      //   var(--instagram-start) 100%
-      // ); 
-      var(--instagram-start)
+      background: linear-gradient(
+        225deg,
+        var(--instagram-end),
+        var(--instagram-middle) 50.91%,
+        var(--instagram-start) 100%
+      );
     }
-    // border-top: rem(5) solid var(--instagram-start);
   }
 
   &--youtube {
