@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Social Media Dashboard](https://the-social-media-dashboard.pages.dev/)
+- Live Site URL - [Social Media Dashboard](https://the-social-media-dashboard.pages.dev/)
 - Frontend Mentor - [@Ahmad-Maartmesrini](https://www.frontendmentor.io/profile/Ahmad-Maartmesrini)
 
 ## My process
@@ -71,4 +71,4 @@ With a solid foundation in HTML, CSS, and JavaScript, I am ready to embark on th
 
 ## Acknowledgments
 
-- Huge cridit goes to Jessica - [@thecodercoder](https://twitter.com/thecodercoder) I learned a lot following codealong course on YouTube.
+- Huge cridit goes to Jessica - [@thecodercoder](https://twitter.com/thecodercoder) I learned a lot following her codealong course on YouTube.
