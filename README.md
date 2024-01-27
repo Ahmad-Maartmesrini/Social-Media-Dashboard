@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Ahmad-Maartmesrini)
+- Live Site URL: [Social Media Dashboard](https://the-social-media-dashboard.pages.dev/)
+- Frontend Mentor - [@Ahmad-Maartmesrini](https://www.frontendmentor.io/profile/Ahmad-Maartmesrini)
 
 ## My process
 
