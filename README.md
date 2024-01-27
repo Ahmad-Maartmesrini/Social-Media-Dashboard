@@ -40,7 +40,10 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox & CSS Grid
+- Sass
+- gulp-sass
+- Flexbox
+- CSS Grid
 - JavaScript
 
 ### What I learned
@@ -68,5 +71,4 @@ With a solid foundation in HTML, CSS, and JavaScript, I am ready to embark on th
 
 ## Acknowledgments
 
-- Huge cridit goes to Jessica - [@thecodercoder](https://twitter.com/thecodercoder)
-  I watched hers videos along working on this project.
+- Huge cridit goes to Jessica - [@thecodercoder](https://twitter.com/thecodercoder) I learned a lot following codealong course on YouTube.
