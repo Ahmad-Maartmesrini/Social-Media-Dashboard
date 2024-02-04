@@ -28,11 +28,13 @@ body {
   display: flex;
   align-items: center;
   width: rem(50);
-  height: rem(26);
+  height: rem(27);
   border-radius: rem(14);
   background-color: var(--toggle-bg-light);
-  border: 1px solid var(--toggle-bg-light);
+  border: none;
   cursor: pointer;
+  outline: none;
+  box-shadow: none;
 }
 
 .toggle-span {
@@ -41,6 +43,8 @@ body {
   height: rem(20);
   left: rem(25);
   border-radius: 50%;
+  outline: none;
+  box-shadow: none;
   background-color: var(--light-bg);
   transition: left 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
@@ -55,7 +59,6 @@ body {
     var(--toggle-bg-end) 0%,
     var(--toggle-bg-start) 98.02%
   );
-  border: var(--toggle-bg-dark);
 }
 
 .dark-mode .toggle-span {
