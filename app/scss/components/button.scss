@@ -1,0 +1,64 @@
+@use "../util" as *;
+
+body {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.theme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.theme h4 {
+  color: var(--light-text1);
+  padding-right: rem(10);
+}
+
+.dark-mode {
+  --background: var(--dark-bg);
+  --text-color: var(--dark-text2);
+  --text-color2: var(--dark-text1);
+  --card-bg: var(--dark-card);
+  --card-hover: var(--dark-card-hover);
+}
+
+.toggle-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: rem(50);
+  height: rem(26);
+  border-radius: rem(14);
+  background-color: var(--toggle-bg-light);
+  border: 1px solid var(--toggle-bg-light);
+  cursor: pointer;
+}
+
+.toggle-span {
+  position: absolute;
+  width: rem(20);
+  height: rem(20);
+  left: rem(25);
+  border-radius: 50%;
+  background-color: var(--light-bg);
+  transition: left 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.dark-mode .theme h4 {
+  color: var(--dark-text1);
+}
+
+.dark-mode .toggle-btn {
+  background: linear-gradient(
+    225deg,
+    var(--toggle-bg-end) 0%,
+    var(--toggle-bg-start) 98.02%
+  );
+  border: var(--toggle-bg-dark);
+}
+
+.dark-mode .toggle-span {
+  left: rem(3);
+  background-color: var(--dark-bg);
+}

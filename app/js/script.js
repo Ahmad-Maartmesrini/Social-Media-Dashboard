@@ -1,3 +1,8 @@
+function toggleDarkMode() {
+  document.body.classList.toggle('dark-mode');
+}
+
+/*
 const darkButton = document.getElementById("dark");
 const lightButton = document.getElementById("light");
 
@@ -40,3 +45,4 @@ window
   });
 
 loadAndUpdateColor();
+*/
